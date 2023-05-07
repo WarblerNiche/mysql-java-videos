@@ -185,6 +185,12 @@ public class Recipes {
 		
 		operations.forEach(op -> System.out.println("   " + op));
 		
+		if (Objects.isNull(curRecipe)) {
+			System.out.println("\nYou are not working with a recipe.");
+		} else {
+			System.out.println("\nYou are working with recipe " + curRecipe);
+		}
+		
 	}
 
 }
