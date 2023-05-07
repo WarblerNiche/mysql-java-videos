@@ -106,7 +106,7 @@ public class Recipe {
 		
 		
 		
-		return super.toString();
+		return recipe;
 	}
 
 }
